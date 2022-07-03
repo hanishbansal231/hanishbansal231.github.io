@@ -164,7 +164,8 @@ nav ul li a:hover {
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-@media(max-width:426px){
+@media (max-width:426px)
+{
    label.logo{
     padding: 0px 56px;
    }
@@ -209,4 +210,42 @@ nav ul li a:hover {
 .input_footer{
     padding: 60px 0px 0px 20px;
 }
+}
+
+@media  (max-width:426px)
+{
+    label.logo{
+        padding: 0px 31px;
+       }
+       nav ul{
+        margin: 0px 7px;
+       }
+       .body_input{
+        width: 375px;
+       }
+       .body_logo{
+        padding: 0px 31px;
+       }
+       .input_img img{
+        margin: 20px 0px 0px 130px;
+       }
+       .input_box {
+        padding: 25px 0px 0px 15px;
+    }
+    .input_box input {
+        width: 350px;
+    }
+    .main_btn {
+        padding: 50px 0px 0px 15px;
+    }
+    .main_btn {
+        padding: 50px 0px 0px 15px;
+    }
+.input_footer {
+    padding: 30px 0px 0px 0px;
+}
+.input_footer p {
+    font-size: 33px;
+}
+        
 }
