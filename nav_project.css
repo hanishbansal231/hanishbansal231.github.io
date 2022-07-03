@@ -249,3 +249,40 @@ nav ul li a:hover {
 }
         
 }
+@media(max-width:380px)
+{
+    label.logo {
+        padding: 0px 3px;
+    }
+    nav ul{
+        margin: 7px;
+    }    
+    nav ul li{
+        font-size: 14px;
+    }
+    .body_input {
+        width: 320px;
+    }
+    .body_logo {
+        padding: 0px 3px;
+    }
+    
+    .input_img img {
+        margin: 20px 0px 0px 105px;
+    }
+    
+    .input_box input {
+        width: 290px;
+    }
+    
+    .main_btn input {
+        width: 290px;
+    }
+    .input_footer p {
+        font-size: 28px;
+    }
+    
+    
+    
+                    
+}
