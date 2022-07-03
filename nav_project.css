@@ -253,22 +253,24 @@ nav ul li a:hover {
 {
     label.logo {
         padding: 0px 3px;
+        font-size: 37px;
     }
     nav ul{
-        margin: 7px;
+        margin: 6px;
     }    
     nav ul li{
-        font-size: 14px;
+        font-size: 13px;
     }
     .body_input {
-        width: 320px;
+        width: 300px;
     }
     .body_logo {
-        padding: 0px 3px;
+        padding: 0px 5px;
+        font-size: 37px;
     }
     
     .input_img img {
-        margin: 20px 0px 0px 105px;
+        margin: 20px 0px 0px 95px;
     }
     
     .input_box input {
@@ -281,7 +283,16 @@ nav ul li a:hover {
     .input_footer p {
         font-size: 28px;
     }
+    .input_box {
+        padding: 25px 0px 0px 6px;
+    }
+    .main_btn {
+        padding: 50px 0px 0px 6px;
+    }
     
+    .input_footer p {
+        font-size: 26px;
+    }            
     
     
                     
