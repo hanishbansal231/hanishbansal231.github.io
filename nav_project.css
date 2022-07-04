@@ -164,13 +164,12 @@ nav ul li a:hover {
     color: blue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-@media (max-width:600px)
+/*@media (max-width:600px)
 {
    label.logo{
     padding: 0px 56px;
    }
    .body_input{
-    /* margin-top: -500px; */
     border-radius: 0px;
    }
    nav ul li{
@@ -296,4 +295,66 @@ nav ul li a:hover {
     
     
                     
+}*/
+@media(max-width:800px)
+{
+  label.logo{
+    font-size: 35px;
+    padding: 0px 40px;
+    line-height: 40px;
+  }
+  nav ul li{
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    margin: 0px 10px;
+   
+  }
+  nav ul{
+    float: none;
+    display: flex;
+    margin: 0px;
+  }
+  .main_cont{
+    display: block;
+    float: none;
+    padding-top: 10px;
+    padding-left: 120px;
+    height: 160px;
+  }
+  .body_input{
+    width: 360px;
+    /* margin-right: 0; */
+    border-radius: 0px;
+    margin: 0;
+  }
+.body_logo{
+    font-size: 35px;
+    padding: 0px 40px;
+}
+.input_img img{
+    margin: 20px 0px 0px 120px;
+
+}
+.input_box {
+    padding: 50px 0px 0px 18px;
+}
+.input_box input{
+    width: 320px;
+}
+.main_btn {
+    padding: 20px 0px 0px 20px;
+}
+.main_btn input{
+    width: 320px;
+    font-size: 20px;
+}
+.input_footer {
+    /* font-weight: bold; */
+    padding: 60px 0px 0px 40px;
+}
+.input_footer p {
+    font-size: 25px;
+}
+
 }
